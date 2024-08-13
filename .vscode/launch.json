@@ -16,7 +16,7 @@
             // "workingDirectory": "${workspaceFolder}",
             // "externalConsole": false,
             // "debugServerPath": "/usr/local/cuda/bin/cuda-gdb",
-            "debuggerPath": "/usr/local/cuda/bin/cuda-gdb/"
+            // "debuggerPath": "/usr/local/cuda/bin/cuda-gdb"
         },
 
         {
