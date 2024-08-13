@@ -15,6 +15,9 @@ if that does not work, pls try:
 
 xxx is file name, yy is GPU compute capability, ep.A100's compute capability is 86.
 
+*没有编译器优化*
+`nvcc xxx.cu -g -G -Xcompiler -O0 -Xptxas -O0 -lineinfo -O0 -o xxx`
+
 2. one-click compile and run
 
 please ensure:
