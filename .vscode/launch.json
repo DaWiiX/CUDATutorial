@@ -5,24 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "CUDA C++: Launch",
+            "name": "CUDA C++: Launch 当前文件",
             "type": "cuda-gdb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "stopAtEntry": false,
             "environment": [],
             "preLaunchTask": "build",
-            // "cudaPath": "/usr/local/cuda",
-            // "workingDirectory": "${workspaceFolder}",
-            // "externalConsole": false,
-            // "debugServerPath": "/usr/local/cuda/bin/cuda-gdb",
-            // "debuggerPath": "/usr/local/cuda/bin/cuda-gdb"
         },
-
-        {
-            "name": "CUDA C++: Attach",
-            "type": "cuda-gdb",
-            "request": "attach"
-        }
     ]
 }
